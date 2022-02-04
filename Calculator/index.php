@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Lessons</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
 </head>
 
 <body>
@@ -35,7 +36,7 @@
 
         switch ($operator) {
             case "None":
-                echo "YOU NEED TO SELECT A METHOD!";
+                echo "<p>YOU NEED TO SELECT A METHOD!</p>";
             break;
             case "Add":
                 echo $result1 + $result2;
