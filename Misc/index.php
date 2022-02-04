@@ -12,8 +12,11 @@
 <?php
 
 
-    for ($x = 1; $x  <= 10; $x++) {
-        echo "Hi there!<br>";
+    $array = array("Grant", "Jon", "Arya", "Sansa", "Sam");
+
+    foreach ($array as $loopdata) {
+        echo "My name is ".$loopdata."<br>";
+
     }
 
 ?>
