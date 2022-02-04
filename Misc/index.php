@@ -13,13 +13,11 @@
 
 
     $x = 1;
-    while ($x < 5) {
-        echo "<p>Hi there!<br></p>";
+    do {
+        echo "Hi there!<br>";
         $x++;
-        
-        
     }
-
+    while ($x <= 5);
 
 ?>
 
