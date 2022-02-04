@@ -12,12 +12,9 @@
 <?php
 
 
-    $x = 1;
-    do {
+    for ($x = 1; $x  <= 10; $x++) {
         echo "Hi there!<br>";
-        $x++;
     }
-    while ($x <= 5);
 
 ?>
 
