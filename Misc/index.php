@@ -17,9 +17,7 @@
 
             $array = array("Grant", "Jon", "Arya", "Sansa", "Sam");
 
-            foreach ($array as $loopdata) {
-                echo "My name is " . $loopdata . "<br>";
-            }
+            echo $array[0];
 
             ?>
         </p>
